@@ -1,11 +1,61 @@
-body {
-    background-color: #ffc096;
+.page-theme {
+    background-color: #36454f;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
 }
 
-.center-content {
-    top: 30%;
-    left: 35%;
-    width: 30%;
-    position: absolute;
+hr {
+    border-color: white !important;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.page-name-1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: #4888ea !important;
+}
+
+.footer-content {
+    padding-top: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+    height: 40px;
+    background-color: #386ab7;
+    color: white;
+    z-index: 40;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

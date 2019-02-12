@@ -1,0 +1,11 @@
+body {
+    background-color: #ffc096;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center-content {
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    position: absolute;
+}
